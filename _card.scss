@@ -1,0 +1,62 @@
+
+
+    .card {
+        background-color: white;
+
+        width: 100;
+        height: 300px;
+        padding: 10px;
+        text-align: center;
+
+        border: 1px solid rgb(226, 226, 226);
+        border-radius: 5px;
+
+        box-shadow:5px 5px 10px 2px rgb(133, 133, 133);
+
+        display: grid;
+        grid-template-rows: 1fr 0.5fr 1fr 0.5fr 1fr;
+
+    }
+    
+    h3 {
+        height: 60px;
+    }
+    
+    .paragraphe {
+        font-size: x-small;
+        font-weight: bold;
+        height: 80px;
+    }
+    
+
+    .hr_line {
+        width: 30px;
+        margin: 0 auto;
+    }
+    
+    .link_card {
+        color: rgb(104, 102, 102);
+        text-decoration: none;
+        text-transform: uppercase;
+    
+        padding: 10px;
+    
+        font-size: x-small;
+        font-weight: bold;
+    
+    }
+
+    .link_card:visited {
+        color: rgb(104, 102, 102);
+    }
+
+    .link_card:hover {
+        background-color:rgb(82, 167, 247);
+        color: white;
+        border: 1 solid skyblue;
+        border-radius: 5px;
+    
+        box-shadow: 3px 3px 5px 3px lightgrey;
+    }
+   
+    

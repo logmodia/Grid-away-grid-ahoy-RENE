@@ -1,0 +1,45 @@
+header {
+    background-color: white;
+    border:5px solid white;
+    margin: 10px;
+    height: 60px;
+}
+
+        .head_page {
+            width: 90%;
+            height: 50px;
+            margin: 0 auto;
+            background-color: black;
+            border: 5px solid black;
+            border-radius: 5px;
+            box-shadow:5px 5px 10px 2px rgb(133, 133, 133);
+        
+            display: grid;
+            grid-template-columns: 1fr 3fr 1fr;
+            grid-template-rows: 1fr;
+            column-gap: 10px;
+        }
+
+        .humburg_container {
+            padding-top: 15px;
+            padding-left: 30px;
+        }
+        
+        .fas {
+            color:white;
+            font-size: x-large;
+        }
+
+        .head_title {
+            color: whitesmoke;
+            padding: 0px;
+            margin: 0px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+        .head_title_h3 {
+            display: none;
+            padding-top: 10px;
+         }
+        

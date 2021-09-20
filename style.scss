@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/*$globalwidth_80pc : 80%;
+$globalmargin_center : 0 auto;
+$globalboxshadow : 5px 5px 10px 2px rgb(133, 133, 133);
+$globalborder_radius : 5px;*/
+
+body {
+    .main {
+        font-family: 'Open Sans', sans-serif;
+        color: rgb(104, 102, 102);
+        padding: 0px;
+        margin: 0px;
+    }
+
+    div {
+        img {
+            width: 60px;
+            height: 60px;
+        }
+    }
+
+    @import "_header.scss";
+
+    .menu_humburger {
+        width: 85%;
+        height: 30px;
+        margin: 0 auto;
+        text-align: left;
+        
+    }
+
+    div {
+        ul {
+            padding: 0px;
+            margin: 0px;
+            background-color: bisque;
+
+            li {
+                display: inline-block;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+        }
+
+        #menu_humb {
+            display: none;
+        }
+
+    }
+
+    @import "_grid_container.scss";
+    @import "_card.scss";
+    
+       
+        .nav_link {
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+        
+            font-size: x-small;
+            font-weight: bold;
+        }
+
+        .nav_link:visited {
+            color: white;
+        }
+        .nav_link:hover {
+            color:rgb(252, 252, 67);
+            font-size: 12px;
+            text-shadow: 5px 5px 5px rgb(250, 248, 248);
+        }
+
+        div {
+            .nav_link {
+                padding: 3px;
+                text-align: center;
+            
+                margin: 0 auto;
+            }
+        }
+
+    @import "_mediaresponsive";
+}
